@@ -60,7 +60,7 @@
         <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
     </section>
     <section class="section" id="contact">
-        <h2>Entre em contato</h2>
+        <h2>Redes Sociais</h2>
         <ul class="social-links">
             <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
             <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>

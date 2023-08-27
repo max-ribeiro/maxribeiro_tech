@@ -42,7 +42,7 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex justify-content-center align-items-center">
-                    <img class="d-block img-fluid" src={{asset('img/site1.png')}} alt="First slide">
+                    <img class="d-block img-fluid" src={{asset('img/site1.webp')}} alt="First slide">
                     {{-- <div class="carousel-caption d-none d-md-block">
                         <a href="https://markstattoo.ink" target="_blank"><i class="fa-solid fa-eye"></i> Acessar Site</a>
                     </div> --}}

@@ -17,8 +17,8 @@
     <section class="section" id="about">
         <div class="container">
             <div>
-                <h1>Max Ribeiro<span class="text-secondary">.TECH</span></h1>
-                <h2 class="text-black-50">Desenvolvimento Web</h2>
+                <h1>Max Ribeiro</h1>
+                <h2 class="text-black-50 mb-md-3">Desenvolvimento Web</h2>
                 <button class="btn btn-primary">
                     Entrar em Contato <i class="fa-solid fa-message"></i>
                 </button>
@@ -30,9 +30,9 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex justify-content-center align-items-center">
-                    <img class="d-block img-fluid" src={{asset('img/site1.png')}} alt="First slide">
+                    <img class="d-block img-fluid" src={{asset('img/site1.svg')}} alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <a href="https://markstattoo.ink"  class="text-warning" target="_blank"><i class="fa-solid fa-eye"></i> Marks Tatto</a>
+                        <a href="https://markstattoo.ink" target="_blank"><i class="fa-solid fa-eye"></i> Acessar Site</a>
                     </div>
                 </div>
             </div>

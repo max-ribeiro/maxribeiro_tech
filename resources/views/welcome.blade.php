@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href={{asset('css/home.css')}}>
     <title>Max Ribeiro - Criação de Sites e Desenvolvimento Web</title>
+    <meta name="description" content="Transformando Ideias em Experiências Digitais - Desenvolvedor Web Especializado em Criação e Desenvolvimento de Sites Impactantes e Funcionais para Potencializar sua Presença Online.">
+    <link rel="icon" type="image/x-svg" href={{asset('img/code-solid.svg')}}>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 </head>
@@ -21,14 +23,16 @@
             <div>
                 <h1>Max Ribeiro</h1>
                 <h2 class="text-black-50 mb-md-3">Desenvolvimento Web</h2>
-                <button class="btn btn-primary">
-                    Entrar em Contato <i class="fa-solid fa-message"></i>
-                </button>
+                <a href="#contact" title="contatos">
+                    <button class="btn btn-primary">
+                        Entrar em Contato <i class="fa-solid fa-message"></i>
+                    </button>
+                </a>
             </div>
         </div>
     </section>
     <section class="section" id="projects">
-        <h2>Projetos Atuais</h2>
+        <h2>Ultimos Projetos</h2>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex justify-content-center align-items-center">

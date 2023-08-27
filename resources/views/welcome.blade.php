@@ -9,6 +9,11 @@
     <link rel="icon" type="image/x-svg" href={{asset('img/code-solid.svg')}}>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    {{-- Open Graph --}}
+    <meta property="og:title" content="Max Ribeiro - Criação de Sites e Desenvolvimento Web" />
+    <meta property="og:url" content="https://www.maxribeiro.tech" />
+    <meta property="og:image" content={{asset('img/code-solid.svg')}} />
 </head>
 <body>
     <nav class="glass-menu">

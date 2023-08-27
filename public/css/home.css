@@ -57,31 +57,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.navbar__container {
+.nav_items {
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 .navbar {
     width: 75%;
 }
-.scroll-down {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 100;
-}
-.scroll-down a {
-    color: #fff;
-    font-size: 24px;
-    text-decoration: none;
-    transition: transform 0.2s;
-}
-
-.scroll-down a:hover {
-    transform: translateY(5px);
 }
 .social-links li {
     margin: 0 10px;
@@ -105,4 +87,40 @@ footer {
 }
 img {
     max-height: 70vh;
+}
+/* Glass-like menu */
+.glass-menu {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    width: fit-content;
+    height: 35px;
+}
+
+.glass-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+.glass-menu li {
+    margin: 0 10px;
+}
+
+.glass-menu a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.glass-menu a:hover {
+    color: #111;
+}
+.current {
+    color: #e34a04;
 }

@@ -3,103 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Max Ribeiro - Desenvolvedor Fullstack</title>
-    <style>
-	@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
-
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  font-family: 'Cinzel', serif;
-}
-
-.context {
-  width: 100%;
-  position: absolute;
-  top: 30vh;
-  z-index: 9999;
-}
-
-.context h1 {
-  text-align: center;
-  color: #fff;
-  font-size: 50px;
-}
-
-.area {
-background-color: #000000;
-opacity: 1;
-background-size: 80px 80px;
-background-image:  repeating-linear-gradient(to right, #060606, #060606 4px, #000000 4px, #000000);
-width: 100%;
-  height: 100vh;
-}
-         .social-links {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        .social-links li {
-            margin: 0 10px;
-	   transition: 0.1s ease-in-out;
-        }
-	.social-links li:hover {
-		transform: scale(1.2);
-	}
-	.social-links li:active {
-		transform: scale(0.8);
-	}
-        .social-icon {
-            font-size: 24px;
-            color: #007bff;
-        }
-	.img-container {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		margin-bottom: 16px;
-	}
-	img {
-		width: 100px;
-		height: 100px;
-		border-radius: 50%;
-	}
-
-    </style>
+    <link rel="stylesheet" href={{asset('css/home.css')}}>
+    <title>Basic Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="context">
-	<div class='img-container'>
-		<img src="https://avatars.githubusercontent.com/u/28072329?s=400&u=53c5addba06123d9bbafe4be5ed1ddbb70bd3ce6&v=4"/>
-	</div>
- 	<h1>Max Ribeiro</h1>
-    	<ul class="social-links">
-        	<li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
-        	<li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
-		<li><a href="mailto:devmaxribeiro@gmail.com" target="_blank"><i class="social-icon far fa-envelope"></i></a>
-    	</ul>
+    <div class="scroll-down">
+        <a href="#contact">
+            <i class="fas fa-chevron-down"></i>
+        </a>
     </div>
-    <div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div >
+    <section class="section" id="about">
+        <div class="container">
+            <div>
+                <h1>Max Ribeiro<span class="text-secondary">.TECH</span></h1>
+                <h2 class="text-black-50">Desenvolvimento Web</h2>
+                <button class="btn btn-primary">
+                    Entrar em Contato <i class="fa-solid fa-message"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="projects">
+        <h2>Projetos Ativos</h2>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active d-flex justify-content-center align-items-center">
+                    <img class="d-block img-fluid" src={{asset('img/site1.png')}} alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a href="https://markstattoo.ink"  class="text-warning" target="_blank"><i class="fa-solid fa-eye"></i> Marks Tatto</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <h2>Entre em contato</h2>
+        <ul class="social-links">
+            <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
+            <li><a href="mailto:devmaxribeiro@gmail.com" target="_blank"><i class="social-icon far fa-envelope"></i></a></li>
+        </ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
-<!-- Site "Lorem Ipsum" enquanto construo a versao final ;) -->

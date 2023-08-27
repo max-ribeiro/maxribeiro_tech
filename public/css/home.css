@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+/* Section styles */
+.section {
+    height: 100vh;
+}
+
+/* About section */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #bfbfbf;
+    color: #fff;
+
+}
+
+/* Services section */
+#projects {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
+#projects h2 {
+    padding: 26px 0;
+}
+
+/* Contact section */
+#contact {
+    background-color: #555;
+    color: #fff;
+    padding: 26px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.navbar__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    width: 75%;
+}
+.scroll-down {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+.scroll-down a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.scroll-down a:hover {
+    transform: translateY(5px);
+}
+.social-links li {
+    margin: 0 10px;
+    transition: 0.1s ease-in-out;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-links li:hover {
+    transform: scale(1.2);
+}
+.social-links li:active {
+    transform: scale(0.8);
+}
+.social-icon {
+    font-size: 24px;
+    color: #df4a16;
+}
+img {
+    max-height: 70vh;
+}

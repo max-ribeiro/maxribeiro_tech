@@ -47,7 +47,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-dark"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
+        <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
     </section>
     <section class="section" id="contact">
         <h2>Entre em contato</h2>

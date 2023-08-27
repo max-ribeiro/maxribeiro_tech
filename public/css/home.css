@@ -92,13 +92,15 @@ img {
 .glass-menu {
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
+    border-radius: 8px 8px 0 0;
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
     width: fit-content;
-    height: 35px;
+    height: 50px;
+    font-size: 30px;
 }
 
 .glass-menu ul {
@@ -123,13 +125,10 @@ img {
 }
 .current {
     color: #e34a04 !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 .badge {
     margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .badge a {
     color:#bfbfbf;

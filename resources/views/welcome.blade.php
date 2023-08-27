@@ -11,6 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
 
     {{-- Open Graph --}}
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Max Ribeiro - Criação de Sites e Desenvolvimento Web" />
     <meta property="og:url" content="https://www.maxribeiro.tech" />
     <meta property="og:image" content={{asset('img/code-solid.svg')}} />

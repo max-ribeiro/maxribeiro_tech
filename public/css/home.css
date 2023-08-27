@@ -64,7 +64,7 @@ footer {
 .navbar {
     width: 75%;
 }
-}
+
 .social-links li {
     margin: 0 10px;
     transition: 0.1s ease-in-out;
@@ -83,7 +83,7 @@ footer {
 }
 .social-icon {
     font-size: 24px;
-    color: #df4a16;
+    color: #080909;
 }
 img {
     max-height: 70vh;
@@ -122,5 +122,5 @@ img {
     color: #111;
 }
 .current {
-    color: #e34a04;
+    color: #e34a04 !important;
 }

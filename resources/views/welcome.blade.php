@@ -11,9 +11,9 @@
 <body>
     <nav class="glass-menu">
         <ul>
-            <li><a href="#about" title="inicio"><i class="fa-solid fa-house"></i></a></li>
-            <li><a href="#projects" title="projetos"><i class="fa-solid fa-palette"></i></a></li>
-            <li><a href="#contact" title="contatos"><i class="fa-solid fa-message"></i></a></li>
+            <li><a class="current" href="#about" title="inicio"><i class="fa-solid fa-house"></i></a></li>
+            <li><a class="" href="#projects" title="projetos"><i class="fa-solid fa-palette"></i></a></li>
+            <li><a class="" href="#contact" title="contatos"><i class="fa-solid fa-message"></i></a></li>
         </ul>
     </nav>
     <section class="section" id="about">
@@ -33,9 +33,9 @@
             <div class="carousel-inner">
                 <div class="carousel-item active d-flex justify-content-center align-items-center">
                     <img class="d-block img-fluid" src={{asset('img/site1.svg')}} alt="First slide">
-                    <div class="carousel-caption d-none d-md-block">
+                    {{-- <div class="carousel-caption d-none d-md-block">
                         <a href="https://markstattoo.ink" target="_blank"><i class="fa-solid fa-eye"></i> Acessar Site</a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -47,6 +47,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-dark"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
     </section>
     <section class="section" id="contact">
         <h2>Entre em contato</h2>
@@ -56,9 +57,7 @@
             <li><a href="mailto:devmaxribeiro@gmail.com" target="_blank"><i class="social-icon far fa-envelope"></i></a></li>
         </ul>
     </section>
-    <script src={{asset('js/main.js')}}>
-
-    </script>
+    <script src={{asset('js/main.js')}} type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -65,7 +65,9 @@
             <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
             <li><a href="mailto:devmaxribeiro@gmail.com" target="_blank"><i class="social-icon far fa-envelope"></i></a></li>
         </ul>
-        <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="max-ribeiro" data-version="v1"><a class="badge-base__link LI-simple-link" target="_blank" href="https://br.linkedin.com/in/max-ribeiro?trk=profile-badge">Me adicione a sua rede no Linkedin</a></div>
+        <div class="badge">
+            <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="max-ribeiro" data-version="v1"><a class="badge-base__link LI-simple-link" target="_blank" href="https://br.linkedin.com/in/max-ribeiro?trk=profile-badge">Me adicione a sua rede no Linkedin</a></div>
+        </div>
     </section>
     <script src={{asset('js/main.js')}} type="text/javascript"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>

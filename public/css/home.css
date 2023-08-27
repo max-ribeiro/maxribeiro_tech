@@ -124,3 +124,13 @@ img {
 .current {
     color: #e34a04 !important;
 }
+.badge {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.badge a {
+    color:#bfbfbf;
+}

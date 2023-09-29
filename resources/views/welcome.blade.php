@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href={{asset('css/home.css')}}>
-    <title>Max Ribeiro - Criação de Sites e Desenvolvimento Web</title>
+    <title>Max Ribeiro - Desenvolvedor Web</title>
     <meta name="description" content="Transformando Ideias em Experiências Digitais - Desenvolvedor Web Especializado em Criação e Desenvolvimento de Sites Impactantes e Funcionais para Potencializar sua Presença Online.">
     <link rel="icon" type="image/x-svg" href={{asset('img/code-solid.svg')}}>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -27,13 +27,15 @@
     <section class="section" id="about">
         <div class="container">
             <div>
-                <h1>Max Ribeiro</h1>
-                <h2 class="text-black-50 mb-md-3">Desenvolvimento Web</h2>
-                <a href="#contact" title="contatos">
-                    <button class="btn btn-primary">
-                        Entrar em Contato <i class="fa-solid fa-message"></i>
-                    </button>
-                </a>
+                <h1>Olá, eu sou o Max!</h1>
+                <p>Sou um desenvolvedor web com experiência sólida nas tecnologias PHP, Vue.js e MySQL.</p>
+                <p>Atualmente, busco aprimorar minhas habilidades para agregar valor às entregas da empresa onde trabalho.</p>
+                <p>Além disso, desenvolvo alguns projetos pessoais utilizando tecnologias como o Laravel.</p>
+                <ul class="social-links">
+                    <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
+                    <li><a href="mailto:devmaxribeiro@gmail.com" target="_blank"><i class="social-icon far fa-envelope"></i></a></li>
+                </ul>
             </div>
         </div>
     </section>
@@ -60,12 +62,6 @@
         <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
     </section>
     <section class="section" id="contact">
-        <h2>Redes Sociais</h2>
-        <ul class="social-links">
-            <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
-            <li><a href="mailto:devmaxribeiro@gmail.com" target="_blank"><i class="social-icon far fa-envelope"></i></a></li>
-        </ul>
         <div class="badge">
             <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="max-ribeiro" data-version="v1"><a class="badge-base__link LI-simple-link" target="_blank" href="https://br.linkedin.com/in/max-ribeiro?trk=profile-badge">Me adicione a sua rede no Linkedin</a></div>
         </div>

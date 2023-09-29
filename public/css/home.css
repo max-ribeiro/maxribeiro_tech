@@ -21,10 +21,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background-color: #bfbfbf;
-    color: #fff;
-
+    background-color: #111010;
+    color: #ffffff;
+}
+#about h1 {
+    font-size: 4rem;
+}
+#about p {
+    color: #cbcfd0;
+    text-align: justify;
+    font-size: 1rem;
 }
 
 /* Services section */
@@ -65,15 +71,15 @@ footer {
     width: 75%;
 }
 
-.social-links li {
-    margin: 0 10px;
-    transition: 0.1s ease-in-out;
-}
 .social-links {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+}
+.social-links li {
+    margin: 0 10px;
+    transition: 0.1s ease-in-out;
 }
 .social-links li:hover {
     transform: scale(1.2);
@@ -82,8 +88,8 @@ footer {
     transform: scale(0.8);
 }
 .social-icon {
-    font-size: 24px;
-    color: #080909;
+    font-size: 30px;
+    color: #2a71d1;
 }
 img {
     max-height: 70vh;

@@ -24,6 +24,9 @@ body {
     background-color: #111010;
     color: #ffffff;
 }
+#about .container {
+    padding: 10%;
+}
 #about h1 {
     font-size: 4rem;
 }
@@ -78,7 +81,7 @@ footer {
     justify-content: left;
 }
 .social-links li {
-    margin: 0 10px;
+    margin-right: 16px;
     transition: 0.1s ease-in-out;
 }
 .social-links li:hover {

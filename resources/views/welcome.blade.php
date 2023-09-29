@@ -28,9 +28,14 @@
         <div class="container">
             <div>
                 <h1>Olá, eu sou o Max!</h1>
-                <p>Sou um desenvolvedor web com experiência sólida nas tecnologias PHP, Vue.js e MySQL.</p>
-                <p>Atualmente, busco aprimorar minhas habilidades para agregar valor às entregas da empresa onde trabalho.</p>
-                <p>Além disso, desenvolvo alguns projetos pessoais utilizando tecnologias como o Laravel.</p>
+                <p>Sou um desenvolvedor web e trabalho a 3 anos com as tecnologias
+                    <i class="fa-brands fa-php"></i>PHP,
+                    <i class="fa-brands fa-vuejs"></i>Vue.js e
+                    <i class="fa-solid fa-database"></i>MySQL.
+                </p>
+                <p>Atualmente, busco aprimorar minhas habilidades para agregar valor na empresa onde trabalho,</p>
+                <p>não só nas entregas mas como tambem na qualidade do código e em melhorias do ambiente de desenvolvimento da equipe.</p>
+                <p>Além disso, desenvolvo alguns projetos pessoais utilizando <i class="fa-brands fa-laravel"></i>Laravel.</p>
                 <ul class="social-links">
                     <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>

@@ -99,7 +99,7 @@ img {
 }
 /* Glass-like menu */
 .glass-menu {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     border-radius: 8px 8px 0 0;
     position: fixed;
@@ -125,7 +125,7 @@ img {
 
 .glass-menu a {
     text-decoration: none;
-    color: #333;
+    color: #5c5c5c;
     transition: color 0.3s;
 }
 
@@ -134,7 +134,7 @@ img {
 }
 .current {
     color: #e34a04 !important;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 .badge {
     margin-top: 30px;

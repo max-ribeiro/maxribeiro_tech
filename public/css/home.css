@@ -30,6 +30,17 @@ body {
 #about h1 {
     font-size: 4rem;
 }
+@media (max-device-width: 420px) {
+    #about h1 {
+        font-size: 2rem;
+    }
+    #about p {
+        font-size: 0.8rem;
+    }
+    .social-icon {
+        font-size: 30px;
+    }
+}
 #about p {
     color: #cbcfd0;
     text-align: justify;

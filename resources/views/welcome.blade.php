@@ -29,13 +29,13 @@
             <div>
                 <h1>Olá, eu sou o Max!</h1>
                 <p>Sou um Desenvolvedor Web Fullstack e trabalho a mais de 3 anos com as tecnologias
-                    <i class="fa-brands fa-php"></i>PHP,
-                    <i class="fa-brands fa-vuejs"></i>Vue.js e
-                    <i class="fa-solid fa-database"></i>MySQL.
+                    <span class="text-primary-emphasis"><i class="fa-brands fa-php"></i>PHP,</span>
+                    <span class="text-success-emphasis"><i class="fa-brands fa-vuejs"></i>Vue.js</span> e
+                    <span class="text-secondary-emphasis"><i class="fa-solid fa-database"></i>MySQL.</span>
                 </p>
                 <p>Atualmente, busco aprimorar minhas habilidades para agregar valor na empresa onde trabalho,</p>
                 <p>não só nas entregas mas como tambem na qualidade do código e em melhorias do ambiente de desenvolvimento.</p>
-                <p>Além disso, desenvolvo alguns projetos pessoais utilizando <i class="fa-brands fa-laravel"></i>Laravel.</p>
+                <p>Além disso, desenvolvo alguns projetos pessoais utilizando <span class="text-warning"><i class="fa-brands fa-laravel"></i>Laravel.</p></span>
                 <ul class="social-links">
                     <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
@@ -46,25 +46,33 @@
     </section>
     <section class="section" id="projects">
         <h2>Ultimos Projetos</h2>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active d-flex justify-content-center align-items-center">
-                    <img class="d-block img-fluid" src={{asset('img/site1.webp')}} alt="First slide">
-                    {{-- <div class="carousel-caption d-none d-md-block">
-                        <a href="https://markstattoo.ink" target="_blank"><i class="fa-solid fa-eye"></i> Acessar Site</a>
-                    </div> --}}
+        <div class="container">
+            <div class="card-group">
+                <div class="card text-bg-dark col-sm-1 m-1">
+                    <img src={{asset('img/site1.webp')}} class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Marks Tattoo</h5>
+                        <p class="card-text">Landing page para tatuador</p>
+                        {{-- <p class="card-text"><small>Last updated 3 mins ago</small></p> --}}
+                        <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
+                    </div>
+                </div>
+                <div class="card text-bg-dark col-sm-1 m-1">
+                    {{-- <img src="..." class="card-img" alt="..."> --}}
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Em construção...</h5>
+                        <p class="card-text">projeto em andamento.</p>
+                    </div>
+                </div>
+                <div class="card text-bg-dark col-sm-1 m-1">
+                    {{-- <img src="..." class="card-img" alt="..."> --}}
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Em construção...</h5>
+                        <p class="card-text">projeto em andamento.</p>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-        <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
     </section>
     <section class="section" id="contact">
         <div class="badge">

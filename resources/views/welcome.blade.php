@@ -21,7 +21,7 @@
         <ul>
             <li><a class="current" href="#about" title="inicio"><i class="fa-solid fa-house"></i></a></li>
             <li><a class="" href="#projects" title="projetos"><i class="fa-solid fa-palette"></i></a></li>
-            <li><a class="" href="#contact" title="contatos"><i class="fa-solid fa-message"></i></a></li>
+            {{-- <li><a class="" href="#contact" title="contatos"><i class="fa-solid fa-message"></i></a></li> --}}
         </ul>
     </nav>
     <section class="section" id="about">
@@ -29,13 +29,13 @@
             <div>
                 <h1>Olá, eu sou o Max!</h1>
                 <p>Sou um Desenvolvedor Web Fullstack e trabalho a mais de 3 anos com as tecnologias
-                    <span class="text-primary-emphasis"><i class="fa-brands fa-php"></i>PHP,</span>
-                    <span class="text-success-emphasis"><i class="fa-brands fa-vuejs"></i>Vue.js</span> e
-                    <span class="text-secondary-emphasis"><i class="fa-solid fa-database"></i>MySQL.</span>
+                    <span class="language-icon"><i class="fa-brands fa-php"></i>PHP</span>,
+                    <span class="language-icon"><i class="fa-brands fa-vuejs"></i>Vue.js</span> e
+                    <span class="language-icon"><i class="fa-solid fa-database"></i>MySQL.</span>
                 </p>
                 <p>Atualmente, busco aprimorar minhas habilidades para agregar valor na empresa onde trabalho,</p>
                 <p>não só nas entregas mas como tambem na qualidade do código e em melhorias do ambiente de desenvolvimento.</p>
-                <p>Além disso, desenvolvo alguns projetos pessoais utilizando <span class="text-warning"><i class="fa-brands fa-laravel"></i>Laravel.</p></span>
+                <p>Além disso, desenvolvo alguns projetos pessoais utilizando <span class="language-icon"><i class="fa-brands fa-laravel"></i>Laravel.</p></span>
                 <ul class="social-links">
                     <li><a href="https://linkedin.com/in/max-ribeiro" target="_blank"><i class="social-icon fab fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/max-ribeiro" target="_blank"><i class="social-icon fab fa-github"></i></a></li>
@@ -75,8 +75,24 @@
         </div>
     </section>
     <section class="section" id="contact">
-        <div class="badge">
-            <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="max-ribeiro" data-version="v1"><a class="badge-base__link LI-simple-link" target="_blank" href="https://br.linkedin.com/in/max-ribeiro?trk=profile-badge">Me adicione a sua rede no Linkedin</a></div>
+        <div class="container">
+            <h2>Entre em contato!</h2>
+            <form action="/send" method="POST">
+                @csrf
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" name="name" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" label required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+            </form>
         </div>
     </section>
     <script src={{asset('js/main.js')}} type="text/javascript"></script>

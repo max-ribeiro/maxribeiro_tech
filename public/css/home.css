@@ -49,7 +49,7 @@ body {
 
 /* Services section */
 #projects {
-    background-color: #444;
+    background-color: #151515;
     color: #fff;
     text-align: center;
 }
@@ -59,12 +59,17 @@ body {
 
 /* Contact section */
 #contact {
-    background-color: #555;
+    display: none !important;
+    background-color: #111010;
     color: #fff;
     padding: 26px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#contact .container {
+    border: 1px solid #222;
+    padding: 30px;
 }
 
 /* Footer styles */
@@ -104,6 +109,11 @@ footer {
 .social-icon {
     font-size: 30px;
     color: #2a71d1;
+}
+.language-icon{
+    border: 1px solid #222;
+    padding: 4px;
+    background-color: #000;
 }
 img {
     max-height: 70vh;

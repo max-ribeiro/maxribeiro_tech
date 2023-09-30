@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class MessageController extends Controller
 {
     public function send(Request $request) {
-        return dd($request->all());
+        return response()->status(404);
     }
 }

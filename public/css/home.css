@@ -130,6 +130,7 @@ img {
     height: 40px;
     width: 100%;
     font-size: 30px;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
 }
 
 .glass-menu ul {

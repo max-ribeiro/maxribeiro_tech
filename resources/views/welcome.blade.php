@@ -47,31 +47,22 @@
         </div>
     </section>
     <section class="section" id="projects">
-        <h2>Ultimos Projetos</h2>
-        <div class="container">
-            <div class="card-group">
-                <div class="card text-bg-dark col-sm-1 m-1">
-                    <img src={{asset('img/site1.webp')}} class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Marks Tattoo</h5>
-                        <p class="card-text">Landing page para tatuador</p>
-                        {{-- <p class="card-text"><small>Last updated 3 mins ago</small></p> --}}
-                        <a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a>
-                    </div>
+        <h2>PROJETOS</h2>
+        <p class="projects__description">
+            Aqui você vai encontrar alguns de meus projetos pessoais e de clientes.
+        </p>
+
+        <div class="divider"><hr/></div>
+        <div class="container projects__content">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src={{asset('img/site1.webp')}} class="img-fluid rounded-start float-end" alt="...">
                 </div>
-                <div class="card text-bg-dark col-sm-1 m-1">
-                    {{-- <img src="..." class="card-img" alt="..."> --}}
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Em construção...</h5>
-                        <p class="card-text">projeto em andamento.</p>
-                    </div>
-                </div>
-                <div class="card text-bg-dark col-sm-1 m-1">
-                    {{-- <img src="..." class="card-img" alt="..."> --}}
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Em construção...</h5>
-                        <p class="card-text">projeto em andamento.</p>
-                    </div>
+                <div class="col-md-6 card__text">
+                    <h4>Marks Tattoo</h4><br/>
+                    <p>Marks Tattoo é um especialista no mundo da tatuagem.<p>
+                    <p>Landing page criada para ampliar sua presença online e exibir seu portfólio de trabalhos.</p>
+                    <p><a href="https://markstattoo.ink" target="_blank"><button class="btn btn-warning mt-md-3"><i class="fa-solid fa-eye"></i> Acessar Site</button></a></p>
                 </div>
             </div>
         </div>

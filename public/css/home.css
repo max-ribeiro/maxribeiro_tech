@@ -1,4 +1,4 @@
-/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');/* Reset some default styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -6,13 +6,14 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Fira Code', monospace;
     color: #fff;
     background-color: #111;
 }
 
 /* Section styles */
 .section {
+    padding-top: 40px;
     height: 100vh;
 }
 
@@ -123,14 +124,11 @@ img {
 .glass-menu {
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
-    border-radius: 8px 8px 0 0;
     position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 0;
     z-index: 100;
-    width: fit-content;
-    height: 50px;
+    height: 40px;
+    width: 100%;
     font-size: 30px;
 }
 
@@ -142,6 +140,7 @@ img {
 }
 
 .glass-menu li {
+    font-size: 20px;
     margin: 0 10px;
 }
 
@@ -155,8 +154,12 @@ img {
     color: #111;
 }
 .current {
-    color: #e34a04 !important;
+    color: #8ac897 !important;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.separator {
+    font-size: 20px;
+    color: #131212;
 }
 .badge {
     margin-top: 30px;

@@ -19,8 +19,8 @@
 <body>
     <nav class="glass-menu">
         <ul>
-            <li><a class="current" href="#about" title="inicio"><i class="fa-solid fa-house"></i></a></li>
-            <li><a class="" href="#projects" title="projetos"><i class="fa-solid fa-palette"></i></a></li>
+            <li><a class="current" href="#about" title="inicio">SOBRE</a></li><span class="separator">|</span>
+            <li><a class="" href="#projects" title="projetos">PROJETOS</a></li>
             {{-- <li><a class="" href="#contact" title="contatos"><i class="fa-solid fa-message"></i></a></li> --}}
         </ul>
     </nav>
